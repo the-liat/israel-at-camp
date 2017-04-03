@@ -27,7 +27,7 @@ import spss
 import spssaux
 
 from camp_list import camps
-from part_a_spss_analyses import spss_results
+from main_and_spss_analyses import spss_results
 from create_exhibits import copy_raw_paste_to_template
 
 for school_name, school_code, number_of_grades, sector_code, grades_dict in camps.iteritems():
